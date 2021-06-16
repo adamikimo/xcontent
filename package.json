@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "dev": "npx nodemon server/server.js -w",
-    "start": "npm install"
+    "start": "npm install",
+    "deploy": "gh-pages -d server"
   },
   "keywords": [],
   "author": "",
