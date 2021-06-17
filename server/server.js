@@ -137,6 +137,6 @@ const PORT = 3000;
 
 // making the app listens at the port
 app.listen(
-     PORT,
+     process.env.PORT || PORT,
      () => console.log(`The server is running at port ${PORT}`)
 )
